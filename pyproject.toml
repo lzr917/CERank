@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cerank"
+version = "1.0.0"
+description = "Collaborative evidence for cross-domain candidate ranking"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy==1.26.4",
+  "scipy==1.13.1",
+  "torch==2.0.1",
+  "recbole==1.2.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "cerank/src"}
+
+[tool.setuptools.packages.find]
+where = ["cerank/src"]

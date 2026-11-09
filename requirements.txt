@@ -1,0 +1,5 @@
+# Tested with Python 3.9.25. Install the appropriate PyTorch CPU/CUDA wheel first.
+numpy==1.26.4
+scipy==1.13.1
+torch==2.0.1
+recbole==1.2.1
