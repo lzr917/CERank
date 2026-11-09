@@ -1,0 +1,23 @@
+{
+  "sequence_length": 50,
+  "embedding_size": 64,
+  "hidden_size": 64,
+  "inner_size": 256,
+  "num_layers": 2,
+  "num_heads": 2,
+  "dropout": 0.5,
+  "num_epochs": 100,
+  "patience": 10,
+  "batch_size": 128,
+  "eval_batch_size": 256,
+  "num_workers": 4,
+  "prefetch_factor": 2,
+  "pin_memory": true,
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "grad_clip": 5.0,
+  "log_every_steps": 50,
+  "num_eval_negatives": 999,
+  "selection_metric": "ndcg@10"
+}
